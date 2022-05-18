@@ -66,3 +66,45 @@ a{
     font-weight:bolder;
 
 }
+
+@media only screen and (max-width: 600px) {
+
+
+    a{
+        text-decoration: none;
+        font-family: Roboto;
+        color: black;
+        font-weight:bolder;
+        margin: 20px;
+    
+    }
+    
+
+    header{
+        display: flex;
+        align-items: center;
+        justify-content:center;        
+    }
+
+
+    h1{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-family: 'Cormorant Garamond', serif;
+        font-family: 'Playfair Display', serif;
+        letter-spacing: 4px;
+        text-decoration: underline;
+        font-size: 4rem;
+        transform: translateX(120%);
+        font-weight: lighter;
+        text-shadow: 1px 1px white;
+        
+    }
+
+    img{
+        height: 275px;
+    }
+
+    
+}
